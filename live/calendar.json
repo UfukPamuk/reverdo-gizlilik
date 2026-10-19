@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "version": 1,
+  "events": [
+    {
+      "id": "ornek-hafta-sonu-altin",
+      "kind": "double_gold",
+      "start": "2026-01-09T18:00:00Z",
+      "end": "2026-01-12T00:00:00Z",
+      "params": { "mult": 2 }
+    },
+    {
+      "id": "ornek-kiralama-indirimi",
+      "kind": "rent_discount",
+      "start": "2026-01-09T18:00:00Z",
+      "end": "2026-01-12T00:00:00Z",
+      "params": { "percent": 25 }
+    },
+    {
+      "id": "ornek-elmas-bonusu",
+      "kind": "gem_bonus",
+      "start": "2026-01-16T09:00:00Z",
+      "end": "2026-01-18T21:00:00Z",
+      "params": { "percent": 20 }
+    },
+    {
+      "id": "ornek-duyuru",
+      "kind": "banner",
+      "start": "2026-01-09T18:00:00Z",
+      "end": "2026-01-12T00:00:00Z",
+      "params": {
+        "tone": "sun",
+        "text": {
+          "tr": "Hafta sonu çift altın! Çantanı boşalt, iki kat kazan.",
+          "en": "Double gold this weekend! Empty your bag, earn twice.",
+          "de": "Doppeltes Gold am Wochenende! Leere deine Tasche, verdiene doppelt.",
+          "es": "¡Oro doble este fin de semana! Vacía tu bolsa y gana el doble.",
+          "fr": "Or double ce week-end ! Vide ton sac, gagne deux fois plus.",
+          "pt": "Ouro em dobro neste fim de semana! Esvazie a bolsa e ganhe o dobro.",
+          "ru": "Двойное золото в выходные! Опустошай сумку — получай вдвое больше.",
+          "ja": "週末はゴールド2倍！バッグを空にして2倍ゲット。",
+          "zh": "周末双倍金币！清空背包，收获翻倍。",
+          "hi": "इस वीकेंड दोगुना सोना! बैग खाली करो, दोगुना कमाओ।",
+          "ar": "ذهب مضاعف في عطلة نهاية الأسبوع! أفرغ حقيبتك واربح الضعف."
+        }
+      }
+    }
+  ],
+  "sales": [
+    {
+      "id": "ornek-kese-indirimi",
+      "products": ["gems_kese", "gems_kutu"],
+      "bonus": 30,
+      "start": "2026-01-23T09:00:00Z",
+      "end": "2026-01-25T21:00:00Z"
+    }
+  ],
+  "flags": {
+    "events": true,
+    "login_streak": true
+  }
+}
